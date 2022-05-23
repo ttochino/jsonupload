@@ -103,20 +103,20 @@ span {
   flex-wrap: wrap;
 }
 
+.block {
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 30px;
+    list-style: none;
+}
+
 .block1 {
-  width: 150px;
-  height: 150px;
-  padding: 20px 20px 20px 20px;
-  border-radius: 30px;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   background-color: #1fc4ad;
 }
 
 .block2 {
-  width: 150px;
-  height: 150px;
-  padding: 20px 20px 20px 20px;
-  border-radius: 30px;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   background-color: #41d5cc;
 }
@@ -284,15 +284,15 @@ span {
     height: 150px;
     flex: 0 0 50%;
   }
-  
+
   .m {
     margin: 3px 10px 0 0;
     width: 45px;
     height: auto;
   }
-  
+
   .bt1 {
     margin: 0;
   }
-  
+
 }
